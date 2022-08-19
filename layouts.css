@@ -1,0 +1,110 @@
+.body {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+}
+
+.header {
+    margin: 5px;
+    border: 5rem solid yellow;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    margin: 5px;
+    border: 0px solid aquamarine;
+    background-color: aquamarine;
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer {
+    margin: 5px;
+    border: 3px solid red;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#index {
+    margin: 5px;
+    border: 1px solid;
+}
+
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    color: aqua;
+    background-color: rgb(68, 0, 255);
+    padding: 25px;
+    font-size: 30px;
+}
+
+#shop {
+    border: 1px solid;
+    margin: 5px;
+    width: 15rem;
+}
+
+#article-container {
+    flex-grow: 1;
+}
+
+section{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+}
+
+#search{
+    display: flex;
+    flex-grow: 1;
+}
+
+#bottom-search{
+    display: flex;
+    width: 5rem;
+}
+
+#section_articulos{
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+#articulos{
+    display: flex;
+    height: 35rem;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+article{
+    min-width: 300px;
+    border: 1px solid;
+    margin: 15px;
+    display: flex;
+    height: 300px;
+}
